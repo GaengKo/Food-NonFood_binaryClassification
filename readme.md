@@ -8,7 +8,7 @@ binary Classification은 기존 Classification과 다르게 결과가 0과 1 둘
 입력 이미지를 음식사진인지, 음식사진이 아닌지 판별하기 위해 binary Classification을 Keras를 이용한
 Convolution Neural Network (CNN) 으로 구현하였습니다. 
 
-#binary_img_data
+binary_img_data
 ---------------
 
 학습을 위한 이미지가 저장된 directory 입니다.
@@ -31,7 +31,6 @@ pedict_binary_img_with_CNN.py
 
 학습 과정에서 loss와 accuracy의 변화 과정을 그래프로 만들어 data.jpg 파일로 저장합니다.
 
-var_accuary = 94%
 ![Alt text](data.jpg)
 
 
